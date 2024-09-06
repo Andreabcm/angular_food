@@ -1,4 +1,4 @@
-import { Component, input, Input, Signal } from '@angular/core';
+import { Component, Input, Signal } from '@angular/core';
 import { Food } from '../../../shared/models/Food';
 
 @Component({

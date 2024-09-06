@@ -8,6 +8,6 @@ export class FoodService {
   foods=signal(foods);
   text=signal('')
   filterArray = computed(()=>{
-    this.foods().filter((food)=>food.name.includes(this.text()))
+    return this.foods().filter((food)=>food.name.includes(this.text()))
   })
 }
